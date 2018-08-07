@@ -1,2 +1,7 @@
-# ignore all intellij specific file in .idea directory
+# ignore all intellij specific files
+
+# in .idea directory
 .idea/
+
+# in the base dir
+*.iml
