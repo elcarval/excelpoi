@@ -15,12 +15,12 @@ public class ReadTRM {
     private static final String tceIpAddress_header_cell = "CD5";
 
     public static void main(String[] args) {
-        String input_file_path = "D:\\OneDrive - Nokia\\MTEL_BG\\DF\\w33_18\\TRM_w33_v2.xlsm";
+        String input_file_path = "D:\\OneDrive - Nokia\\MTEL_BG\\DF\\w33_18\\TRM_w33_v2.xlsm"; // Ask the user / get it from GUI
         String sheet_name = "Transport";
         String mrbtsId_header_cell = "A5";
 
 
-        String siteCode = "SHU0020";
+        String siteCode = "SHU0020"; // Get it from CA_Modernizer_Input file in HW_Config sheet
 
         try {
             XSSFWorkbook workbook = new XSSFWorkbook(new FileInputStream(input_file_path));
